@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.1.4</domain>
+        <domain includeSubdomains="true">103.103.137.196</domain>         #Server 1
+        <domain includeSubdomains="true">iotpond.sby.nusa.net.id</domain> #Server 1
+    </domain-config>
+</network-security-config>

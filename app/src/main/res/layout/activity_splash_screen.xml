@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    tools:context=".activity.splashscreen.SplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:src="@drawable/mmp"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Pond IoT Monitoring App"
+        android:textAlignment="center"
+        android:fontFamily="@font/opensans_bold"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/pb_splash_screen_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Powered By"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensans_light"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:src="@drawable/nusanet"
+        />
+</LinearLayout>
